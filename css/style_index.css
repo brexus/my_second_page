@@ -20,7 +20,7 @@ h1.main {
     font-family: 'Inter', sans-serif;
     font-size: 70px;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 15vh;
     /* border: 1px solid red; */
 
 }
@@ -41,7 +41,7 @@ div.descriptions-section {
     /* border: 1px solid red; */
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(3, 1fr);
     
 
 }
@@ -94,4 +94,62 @@ div.footer {
     height: 20vh;
     text-align: center;
     
+}
+
+.header-container {
+    display: flex;
+    padding: 12px 10%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+     background-color: rgb(32, 32, 34);/ * rgb(32, 32, 34); */
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+a, ul, li {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    font-style: normal;
+}
+
+a:visited {
+    color: white;
+    font-style: normal;
+
+}
+
+
+
+.logo {
+    cursor: pointer;
 }
