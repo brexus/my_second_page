@@ -105,8 +105,7 @@ div.footer {
 }
 
 header {
-     background-color: rgb(32, 32, 34);/ * rgb(32, 32, 34); */
-    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 34);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
