@@ -84,111 +84,118 @@ div.description-title_back {
 
 /* ======================= SEKCJA KONTAKT ======================= */
 #kontakt-section {
-    background-color:#ad1d1d;
+    background: #ad1d1d;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+img#kontakt-icon {
+    width: 10vw;
+    max-width: 120px;
+}
+
+#section-main-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border: 1px solid rgb(0, 110, 255);
-
-}
-
-h1#kontakt-title-style {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    padding: 50px 0;
-    border: 1px solid rgb(0, 110, 255);
-
-}
-
-#kontakt-icon-section {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgb(0, 110, 255);
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 200px;
-}
-
-#kontakt-icon-contain {
-    justify-content: center;
-    align-items: center;
     text-align: center;
-
-    width: 33.3%;
-    border: 1px solid rgb(0, 110, 255);
-    height: 200px;
+    padding: 3vw 0;
 }
 
-#kontakt-image-location {
-    background: url(../images/location2.png);
-    background-repeat: no-repeat;
-    height: 200px;
-    
-}
-
-
-.kontakt-main-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    justify-content: center;
-    font-weight: 400;
-    flex: 1;
-    padding: 20px;
-}
-
-.kontakt- {
+#kontakt-items-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    flex: 1;
+    padding: 0 0 30px 0;
 
 }
 
-.kontact-item {
+#kontakt-location-container {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
     width: 33.3%;
-
+    height: auto;
 }
 
-.kontakt-item-icon {
-    height: 100px;
-    align-items: center;
+#kontakt-location-image {
+    text-align: center;
 }
 
-.kontakt-item-description {
+#kontakt-phone-image {
+    text-align: center;
+}
+
+#kontakt-time-image {
+    text-align: center;
+}
+
+#kontakt-location-description {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 10px 0;
     text-align: center;
-    padding: 30px;
+    color: white;
+}
+
+#kontakt-title-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+#kontakt-phone-container {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: auto;
+}
+
+#kontakt-time-container {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: auto;
 }
 
 
-
-
-img.window1 {
-    /* border: 1px solid red; */
-    height: 30vw;
+/* ======================= OKNA ======================= */
+#okna-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(89, 16, 224);
 }
 
-div.window1-image {
-    grid-column: 100%;
-    /* border: 1px solid red; */
-    text-align: center;  
+#okna-section #section-main-title {
+    color: black;
+}
+
+#okna-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+#rodzaje-okien {
+    display:list-item;
+    list-style: square;
+}
+
+h2#okna {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0 0 0;
 }
 
 
@@ -300,6 +307,8 @@ h2#footer-title-style {
     font-size: 10px;
 
 }
+
+
 
 
 
